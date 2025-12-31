@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+Aiagent/
+
+
+
+# API Keys (IMPORTANT !)
+**/*API_KEY*
+**/api_key*
+*.key
+
+# Data files 
+data/*.csv
+data/*.xlsx
+
+# Output files
+*.md

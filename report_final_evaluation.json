@@ -1,0 +1,62 @@
+{
+  "report_quality": {
+    "word_count": 2580,
+    "length_adequate": true,
+    "sections_found": 10,
+    "sections_total": 10,
+    "structure_complete": true,
+    "has_statistics": true,
+    "has_model_metrics": true,
+    "has_recommendations": true,
+    "quality_score": 100.0
+  },
+  "plan_evaluation": {
+    "has_objectives": true,
+    "has_questions": true,
+    "has_methodology": true,
+    "has_metrics": true,
+    "plan_score": 100.0
+  },
+  "eda_evaluation": {
+    "features_mentioned": 11,
+    "features_expected": 13,
+    "has_distributions": true,
+    "has_correlations": true,
+    "has_outliers": true,
+    "has_missing_analysis": true,
+    "insight_mentions": 17,
+    "coherence_score": 93.8
+  },
+  "model_evaluation": {
+    "models_found": 3,
+    "model_types": {
+      "linear": true,
+      "random_forest": true,
+      "xgboost": true
+    },
+    "metrics_found": 4,
+    "has_comparison": true,
+    "has_best_model": false,
+    "has_feature_importance": true,
+    "plausibility_score": 90.0
+  },
+  "limitations": {
+    "limitations": [
+      "Limited dataset size (1,000 records)",
+      "Synthetic or sampled data may not represent real-world complexity",
+      "LLM-based analysis may lack domain expertise",
+      "No causal inference, only correlations",
+      "Limited feature engineering by automated agents"
+    ],
+    "potential_failures": [],
+    "improvement_areas": [
+      "Add more sophisticated feature engineering",
+      "Implement ensemble methods",
+      "Include cross-validation results",
+      "Add visualization outputs",
+      "Improve agent collaboration and information passing"
+    ],
+    "failure_count": 0,
+    "limitation_count": 5
+  }
+}
