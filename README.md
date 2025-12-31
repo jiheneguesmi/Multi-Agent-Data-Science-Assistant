@@ -209,9 +209,9 @@ llm = LLM(
 |--------------------|-----------|-----------|---------|
 | Report Quality     | 100.0     | 100.0     | 100.0   |
 | Plan Quality       | 100.0     | 100.0     | 100.0   |
-| EDA Coherence      | 93.8      | 93.8      | 93.8    |
-| Model Plausibility | 90.0      | 90.0      | 90.0    |
-| Overall Score      | 95.5      | 95.5      | 95.5    |
+| EDA Coherence      | 91.8      | 95.8      | 93.8    |
+| Model Plausibility | 87.0      | 93.0      | 90.0    |
+| Overall Score      | 96        | 91.0     | 95.5    |
 
 ## Critical Analysis
 
